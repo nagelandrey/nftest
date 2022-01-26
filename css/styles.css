@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Fifaks";
+    src: url(/fonts/Fifaks10Dev1.ttf);
+}
+
+.wrapper {
+    background-color: #000000;
+}
+
+.wrapper,
+.header,
+.container,
+.main-container,
+.footer {
+    margin: 0;
+    padding: 0;
+    font-family: "Fifaks";
+    font-size: 20px;
+    font-style: normal;
+    line-height: 16px;
+}
+
+.container {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menu,
+.menu-item {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.menu .brand {
+    margin-right: auto;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.menu-item .link {
+    padding: 15px 20px;
+}
+
+.menu-item .link:hover {
+    padding-top: 11px; 
+}
+
+.menu .brand .link:hover {
+    padding: 15px 20px;
+    text-shadow: 1px 2px 3px #FFFFFF;
+}
+
+.link,
+.link:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.content {
+    min-height: 800px;
+}
+
+.block-first .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  no-repeat center 20% url("/images/background-example.png");
+}
+
+.block-first .link-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-first .link-wrapper .small-rectangle {
+    width: 6px;
+    height: 34px;
+    background-color: #55AAFF;
+}
+
+.block-first .link-wrapper .link-buy {
+    padding: 14px 30px;
+    background-color: #55AAFF;
+}
+
+.block-first .link-wrapper:hover {
+    margin-bottom: 7px;
+}
+
+.block-autors {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.wrapper-autors {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.autor {
+    padding: 100px 60px;
+    background: #FFFFFF;
+}
